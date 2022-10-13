@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^kidstaxi\.rs$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.kidstaxi\.rs$
+RewriteRule ^/?$ "https\:\/\/kidstaxi\.rs\/index\.html" [R=301,L]
+
